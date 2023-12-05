@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300&family=Inconsolata:wght@300&display=swap');
+
+body {
+    background-color: #03001C;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.ventana {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.titulo {
+    font-size: 160%;
+    color: orangered;
+}
+
+.navbar-nav .nav-link {
+    background: transparent;
+    color: white;
+    font-size: 150%;
+    border-color: orangered;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler-icon {
+    background-color: orangered;
+}
+
+.seccionUno {
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.seccionUnoA {
+    margin-top: 10%;
+    margin-left: 15%;
+
+}
+
+#titulo {
+    color: orangered;
+    font-size: 170%;
+    margin: 0;
+    bottom: 0;
+}
+
+.home {
+    width: 70%;
+}
+
+
+.seccionDos {
+    margin-top: 10%;
+    margin-bottom: 16%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.aboutImg {
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.seccionDosA {
+    margin-top: 10%;
+    margin-right: 20%;
+
+}
+
+.titulo2 {
+    font-size: 150%;
+    margin: 0;
+    bottom: 0;
+}
+
+.botonDos {
+    background: orangered;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    border-color: orangered;
+}
+
+.seccionTres {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    gap: 25%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 90%;
+}
+
+.textoUno {
+    font-size: 150%;
+    color: orangered;
+    bottom: 0;
+}
+
+.seccionTres h2 {
+    font-size: 320%;
+    margin: 0;
+}
+
+.imagenes {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.cajas {
+    padding: 2%;
+    background: white;
+    color: black;
+    align-items: center;
+    border-style: dotted;
+
+}
+
+.homeImg {
+    width: 70%;
+}
+
+.parrafos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parrafoChiken {
+    font-size: 18px;
+}
+
+.parrafoFood {
+    font-size: 12px;
+}
+
+.parrafoPrecio {
+    color: orange;
+}
+
+.seccionCuatro {
+    margin-top: 14%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    gap: 25%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 90%;
+}
+
+.cajasServicio {
+    padding: 2%;
+    background: #03001C;
+    align-items: center;
+}
+
+.parrafos p {
+    margin: 0;
+}
+
+.seccionCuatro h2 {
+    font-size: 320%;
+    margin: 0;
+}
+
+.seccionCinco {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+
+}
+
+.cajaEveryday {
+    margin-top: 16%;
+    padding: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: dotted;
+    gap: 30px;
+}
+
+.ultimaParte {
+    display: flex;
+    justify-content: center;
+    flex-direction: inherit;
+    gap: 100px;
+    margin-bottom: 16%;
+
+}
+
+.encabezado {
+    font-size: 150%;
+}
+
+.semiEncabezado strong{
+    font-size: 65%;
+    margin-top: 0%;
+}
+
+.navbar-nav .nav-link {
+    padding: 0;
+}
+
+.linea {
+    width: 40%;
+    color: orangered;
+    margin-top: 0%;
+    padding: 1%;
+}
+
+.botonContact {
+    background: orangered;
+    font-family: 'Inconsolata', monospace;
+    border-color: orangered;
+    padding: 8%;
+    border-radius: 50%;
+}
+
+
+@media (max-width : 768px) {
+
+    .seccionUno {
+        margin-top: 3%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+
+    #titulo {
+        color: orangered;
+        font-size: 180%;
+        margin: 0;
+        bottom: 0;
+    }
+
+    .seccionUnoA {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    .home {
+        width: 60%;
+    }
+
+    .seccionDos {
+        margin-top: 30%;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+        text-align: center;
+        
+    }
+
+    .aboutImg {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    
+    .seccionDosA {
+        margin-top: 0%;
+        margin-right: 10%;
+        margin-left: 10%;
+    
+    }
+
+    .titulo2 {
+        font-size: 150%;
+        margin: 0;
+        bottom: 0;
+    }
+
+    .imagenes {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cajas {
+        width: 70%;
+        background: white;
+        color: black;
+        align-items: center;
+        border-style: dotted;
+        padding: 0.5%;
+        margin-bottom: 10%;
+    }
+
+    .homeImg {
+        width: 70%;
+    }
+
+    .seccionTres h2 {
+        font-size: 250%;
+        margin: 0;
+    }
+
+    .cajasServicio {
+        padding: 0.5%;
+        width: 60%;
+        background: #03001C;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .seccionCuatro h2 {
+        font-size: 250%;
+        margin: 0;
+    }
+
+    .cajaEveryday {
+        margin-top: 16%;
+        padding: 50px;
+        background: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-style: dotted;
+        gap: 30px;
+    }
+
+    .seccionCinco {
+        margin-bottom: 20%;
+    }
+
+    .ultimaParte {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 15%;
+        margin-left: 15%;
+    }
+
+    .linea {
+        width: 10%;
+        color: orangered;
+        padding: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding: 0.5%;
+    }
+
+    .botonContact {
+        background: orangered;
+        font-family: 'Inconsolata', monospace;
+        border-color: orangered;
+        padding: 2%;
+        border-radius: 50%;
+    }
+
+    .encabezado {
+        font-size: 120%;
+    }
+    
+    .semiEncabezado strong{
+        font-size: 45%;
+    }
+
+    .navbar-nav {
+        padding: 0;
+        margin-bottom: 5%;
+    }
+
+    /*.botones {
+        text-align: center;
+    }*/
+
+}
+
